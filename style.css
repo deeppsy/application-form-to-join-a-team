@@ -1,0 +1,55 @@
+body {
+  font-family: "Inter", sans-serif;
+  padding: 1rem;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+div .logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
+
+.my-name {
+  text-align: center;
+}
+.contact-details {
+  text-align: center;
+}
+
+.items-with-date p {
+  display: inline-block;
+}
+
+.items-with-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h2 {
+  border-bottom: 2px solid black;
+  width: max-content;
+  margin-bottom: 2px;
+}
+
+.education .school {
+  font-weight: 800;
+  margin-top: 20px;
+}
+.education p,
+.company p {
+  margin: 5px 0;
+}
+
+section > h2 {
+  font-size: 1.4em;
+}
