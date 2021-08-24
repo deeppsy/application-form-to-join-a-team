@@ -18,38 +18,42 @@ header img {
   height: auto;
 }
 
-.my-name {
-  text-align: center;
-}
-.contact-details {
-  text-align: center;
-}
-
-.items-with-date p {
-  display: inline-block;
-}
-
-.items-with-date {
+main {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+}
+main > *:nth-child(1) {
+  flex: 1 1 30%;
+  margin-top: 219px;
+}
+main > *:nth-child(2) {
+  flex: 1 1 65%;
 }
 
-h2 {
-  border-bottom: 2px solid black;
-  width: max-content;
-  margin-bottom: 2px;
+h1.my-name {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  color: #ba5624;
 }
 
-.education .school {
-  font-weight: 800;
-  margin-top: 20px;
-}
-.education p,
-.company p {
-  margin: 5px 0;
+.mainpage section {
+  border-bottom: 2px solid rgb(106, 97, 97);
 }
 
-section > h2 {
-  font-size: 1.4em;
+.technical-details li,
+.contact li,
+.projects li {
+  list-style: none;
+}
+
+.technical-details ul,
+.contact ul,
+.projects ul {
+  padding-left: 0;
 }
